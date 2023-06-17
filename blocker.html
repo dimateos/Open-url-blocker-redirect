@@ -117,7 +117,8 @@
 	<script>
 		window.onload = function time_to_sleep() {
 			var today = new Date();
-			if (today.getHours() >= 21 || today.getHours() < 6) {
+			//if (today.getHours() >= 21 || today.getHours() < 6) {
+			if (true) {
 				console.log("Looks like a night 🌙"); // debug
 
 				var texts_night = [
@@ -131,7 +132,17 @@
 					"Get some sleep, please.",
 					"Having 7-8 hrs of sleep is important.",
 					"Is this really something that can't wait?",
-					"Are you sure you can't do it tomorrow?"
+					"Are you sure you can't do it tomorrow?",
+					"Don't stop when you're bored!<br />Stop when you are<span style='text-transform: uppercase; font-weight: 700;'> <u>done</u></span> ✅",
+					"You have better things to do 🙃",
+					"No ⛔",
+					"Are you sure you did everything? 🤔",
+					"Finish it now and have some fun time later!",
+					"You can do it 💪🏼",
+					"Who, if not <u>you</u>?",
+					"You're sooo close!",
+					"Almost there 🎯",
+					"You turned this on for a reason 🙃"
 				];
 
 				var random_night_text =
